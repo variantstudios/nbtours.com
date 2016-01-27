@@ -1,5 +1,5 @@
 # Site settings
-title: VS CloudCannon Demo Site
+title: Nichol-Bak Tours
 email: team@variantstudios.com
 description:
 baseurl: "/" # the subpath of your site, e.g. /blog/
@@ -29,21 +29,10 @@ paginate_path: "/news/page:num/"
 
 # Collections
 collections:
-  events:
+  tours:
     output: true
-    permalink: /events/:title/
-  gallery:
-    output: true
-    permalink: /gallery/:title/
-defaults:
-  - scope:
-      type: "events"
-    values:
-      layout: "event"
-  - scope:
-      type: "news"
-    values:
-      layout: "post"
+    permalink: /tour/:title/
+
 
 # Reading Time Feature
 reading_time:     true

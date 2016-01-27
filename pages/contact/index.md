@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Contact"
 permalink: /contact/
 ---
@@ -9,5 +9,4 @@ permalink: /contact/
 **970-587-4464**
 
 ## Give Us A Comment:
-
 {% include contact-form.html %}
