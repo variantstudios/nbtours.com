@@ -6,10 +6,18 @@ layout: default
   <p>Nichol-Bak tours is about bringing 7 different towns together and the epicenter being Twin Lakes. Along with seeing 7 different mountain towns, there is fishing, rafting, kayaking, museums, and really anything you can think of up there to do.</p>
 </div>
 
+
+ <ul class="tabs-menu">
+  {% for item in site.tours %}
+    <li><a href="#tab-{{ item.id }}">{{ item.title }}</a></li>
+  {% endfor %}
+</ul>
+
+
 {% for item in site.tours %}
-  <div class="tour-teaser">
+  <div class="tour-teaser" id="tab-{{ item.id }}">
     <div class="tour-teaser-image">
-      <img src="{{ item.tour_images }}" class="image-border" alt="{{ item.title }}" />
+      <img src="{{ item.tour_images.first.image_path }}" class="image-border" alt="{{ item.title }}" />
     </div>
     <div class="tour-teaser-details">
       <h3>{{ item.title }}</h3>

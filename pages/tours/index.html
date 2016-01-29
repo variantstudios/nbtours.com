@@ -13,7 +13,7 @@ page_header_image: /assets/images/articles/photo-1433959352364-9314c5b6eb0b_sm.j
 {% for item in site.tours %}
   <div class="tour-teaser">
     <div class="tour-teaser-image">
-      <img src="{{ item.tour_images }}" class="image-border" alt="{{ item.title }}" />
+      <img src="{{ item.tour_images.first.image_path }}" class="image-border" alt="{{ item.title }}" />
     </div>
     <div class="tour-teaser-details">
       <h3>{{ item.title }}</h3>

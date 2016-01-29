@@ -8,7 +8,30 @@
   }
   .tour-teaser-details {
     @include breakpoint($tablet, $no-query: '.no-mq') {
-      @include grid-span(6,7);
+      @include grid-span(5.52,7.25);
     }
+  }
+}
+
+.front {
+  .tabs-menu {
+    list-style: none;
+    margin: 0 0 2em;
+    padding:0 0 2em;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    li {
+      display: inline-block;
+    }
+  }
+}
+.front {
+  .tour-teaser {
+    display: none;
+  }
+}
+.front {
+  #tab-1 {
+    display: block;
   }
 }

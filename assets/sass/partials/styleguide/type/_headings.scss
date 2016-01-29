@@ -18,7 +18,7 @@ h6 { font-size: 1em; }
 h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font-family;
   color: $heading-color;
-  font-weight: 300;
+  font-weight: 700;
   margin: $rem 0;
   line-height: 1.4;
   a {
@@ -31,6 +31,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.2em;
 }
 
+.page-title {
+  text-align: center;
+}
 .title-emblem {
   text-align: center;
   background: $color-one;

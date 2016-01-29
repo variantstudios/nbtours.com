@@ -1,11 +1,13 @@
 ---
 layout: default
 ---
-<div class="flexslider">
+<div class="flexslider tours-images-slider">
   <ul class="slides">
+    {% for item in page.tour_images %}
     <li>
-      <img class="image-border" src="{{ page.tour_images }}" />
+      <img class="image-border" src="{{ item.image_path }}" />
     </li>
+    {% endfor %}
   </ul>
 </div>
 
@@ -13,5 +15,30 @@ layout: default
 <h1 class="page-title">{{ page.title }}</h1>
 <div class="page-intro editable">
   <p>{{ content }}</p>
+</div>
+
+<div class="tour-details">
+  <div class="left-col">
+    <div class="detail">
+      <span class="detail-label">Price</span>
+      <span class="detail-content">{{ page.price }}</span>
+    </div>
+    <div class="detail">
+      <span class="detail-label">Availability</span>
+      <span class="detail-content"><a href="#">View Calendar</a></span>
+    </div>
+    <div class="detail">
+      <span class="detail-label">Includes</span>
+      <ul>
+        {% for item in page.includes %}
+        <li>{{ item.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="right-col">
+    <div class="detail"><span class="detail-label"></span></div>
+    <div class="detail"><span class="detail-label"></span></div>
+  </div>
 </div>
 

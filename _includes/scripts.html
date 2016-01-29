@@ -6,6 +6,34 @@
 
 <script type="text/javascript" src="/assets/js/prod/scripts.js"></script>
 
+{% if page.path contains '_tours' %}
+<script type="text/javascript" src="/assets/js/prod/jquery.flexslider-min.js"></script>
+ <script type="text/javascript">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+      animation: "slide",
+      smoothHeight: true,
+    });
+  });
+
+</script>
+{% endif %}
+
+{% if page.path == 'index.html' %}
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".tabs-menu a").click(function(event) {
+        event.preventDefault();
+        $(this).parent().addClass("current");
+        $(this).parent().siblings().removeClass("current");
+        var tab = $(this).attr("href");
+        $(".tour-teaser").not(tab).css("display", "none");
+        $(tab).fadeIn();
+    });
+});
+</script>
+{% endif %}
+
 {% if site.google_analytics_tracking_id %}
 <!-- google analytics -->
 <script>
