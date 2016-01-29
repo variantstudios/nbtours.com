@@ -32,6 +32,11 @@ collections:
   tours:
     output: true
     permalink: /tour/:title/
+efaults:
+  - scope:
+      type: "tours"
+    values:
+      layout: "tour"
 
 
 # Reading Time Feature

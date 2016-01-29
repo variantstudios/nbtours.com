@@ -68,3 +68,10 @@
   -o-transform: $args;
   transform: $args;
 }
+
+
+@mixin wrap {
+  max-width: $container_width;
+  margin: 0 auto;
+  @include clearfix;
+}

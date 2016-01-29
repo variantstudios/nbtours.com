@@ -13,7 +13,7 @@ body {
 p {
   margin: auto auto $indent-val;
   margin-bottom: 10px;
-  line-height: 2;
+  line-height: 1.7;
   // Conditonal Check For Paragraph Styling
   @if $paragraph-vertical-whitespace == false {
     /*& + p {

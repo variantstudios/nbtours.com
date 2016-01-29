@@ -31,3 +31,15 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.2em;
 }
 
+.title-emblem {
+  text-align: center;
+  background: $color-one;
+  margin: -1em auto 2em;
+  position: relative;
+  color: #fff;
+  padding: .5em 0;
+  font-size: 23px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+

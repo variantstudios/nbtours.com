@@ -1,12 +1,10 @@
-- text: About Us
-  url: /about-us/
-- text: Resources
-  url: /resources/
-- text: News
-  url: /news/
-- text: Events
-  url: /events/
-- text: Gallery
-  url: /gallery/
+- text: Tours
+  url: /tours/
+- text: Lodging
+  url: /lodging/
 - text: Contact
   url: /contact/
+- text: About Us
+  url: /about-us/
+- text: Request a Tour
+  url: /request/
