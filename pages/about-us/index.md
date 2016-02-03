@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Us
-subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu elementum nisl. Mauris quam tellus, semper non consequat ut, bibendum in magna. Suspendisse id euismod nunc. Suspendisse mollis quam mollis, efficitur risus et, sollicitudin leo.'
+intro: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu elementum nisl. Mauris quam tellus, semper non consequat ut, bibendum in magna. Suspendisse id euismod nunc. Suspendisse mollis quam mollis, efficitur risus et, sollicitudin leo.'
 permalink: /about-us/
 page_header_image: /assets/images/articles/photo-1433959352364-9314c5b6eb0b_sm.jpg
 ---

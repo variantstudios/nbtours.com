@@ -4,7 +4,15 @@
   .page-intro {
     max-width: 800px;
     text-align: center;
-    margin: 0 auto 5em;
+    margin: 0 auto 3em;
     font-size: 1.2em;
+  }
+}
+
+.front { 
+  .main-content-area {
+    .page-intro {
+      margin: 0 auto 5em;
+    }
   }
 }
