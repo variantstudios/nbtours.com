@@ -1,12 +1,9 @@
 ---
-layout: default
-title: "Contact"
+layout: page
+title: "Contact Us"
 permalink: /contact/
+page_header_image: /assets/images/header-front/home.jpg
 ---
-
-## Our Number:
-
-**970-587-4464**
 
 ## Give Us A Comment:
 {% include contact-form.html %}

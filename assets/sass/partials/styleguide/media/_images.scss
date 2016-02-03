@@ -5,6 +5,14 @@ img {
 
 .image-border {
   background: #fff;
-  padding: 25px;
+  padding: 25px !important;
   box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
+.main-content-area {
+  img {
+    margin: 0 auto;
+    display: block;
+    padding: 1em 0;
+  }
 }

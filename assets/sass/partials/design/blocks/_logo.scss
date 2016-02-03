@@ -3,12 +3,14 @@
         padding: 2.5em 0 0.5em;
     }
     img {
-        width: 300px;
-        margin: 1em auto;
+        width: 250px;
+        margin: 0 auto;
         display: block;
+        padding: 2em 0;
         @include breakpoint($tablet, $no-query: ".no-mq") {
             width: 250px;
             margin: 1em auto 0;
+            padding: 0;
         }
     }
 }

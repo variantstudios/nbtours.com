@@ -1,5 +1,11 @@
 input[type="submit"] {
-  @include btn(#999, #fff, #6286BD, 3px, $normal);
-  @include grad(#52BAD5, #5276A0, $stop: 100%); 
+  background-image: linear-gradient(-180deg, #28AC74 0%, #1D8056 100%);
+  border: 1px solid #2A9D6D;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: .5em 1.75em .4em;
+  font-size: 0.9em;
   font-family: $heading-font-family;
 }

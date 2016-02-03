@@ -1,4 +1,38 @@
 header {
   margin: 0 auto;
   @include clearfix;
+  &:after {
+    background: -moz-linear-gradient(top, rgba(59,67,91,0.82) 0%, rgba(67,83,115,0.00) 100%); 
+    background: -webkit-linear-gradient(top, rgba(59,67,91,0.82) 0%, rgba(67,83,115,0.00) 100%); 
+    background: linear-gradient(to bottom, rgba(59,67,91,0.82) 0%, rgba(67,83,115,0.00) 100%); 
+    background-image: linear-gradient(-180deg, rgba(59,67,91,0.82) 0%, rgba(67,83,115,0.00) 100%);
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    top: 0;
+    z-index: -1;
+    @include breakpoint($tablet, $no-query: ".no-mq") {
+      height: 300px;
+    }
+  }
+}
+
+// Setting Header Height by using nav bottom padding 
+header {
+  nav.main-nav {
+    padding: 2em 0 10em;
+    @include breakpoint($tablet, $no-query: ".no-mq") {
+      padding: 2em 0 16em;
+    }
+  }
+}
+
+.front {
+  header {
+    nav.main-nav {
+      @include breakpoint($tablet, $no-query: ".no-mq") {
+        padding: 2em 0 32em;
+      }
+    }
+  }
 }

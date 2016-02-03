@@ -2,10 +2,12 @@
 layout: default
 title: "Our Tours"
 permalink: /tours/
-page_header_image: /assets/images/articles/photo-1433959352364-9314c5b6eb0b_sm.jpg
+page_header_image: /assets/images/header-front/home.jpg
 ---
 
-<h4 class="title-emblem">{{ page.title }}</h4>
+<div class="title-emblem-wrapper">
+  <h1 class="title-emblem">{{ page.title }}</h1>
+</div>
 <div class="page-intro editable">
   <p>Nichol-Bak tours is about bringing 7 different towns together and the epicenter being Twin Lakes. Along with seeing 7 different mountain towns, there is fishing, rafting, kayaking, museums, and really anything you can think of up there to do.</p>
 </div>
@@ -13,10 +15,12 @@ page_header_image: /assets/images/articles/photo-1433959352364-9314c5b6eb0b_sm.j
 {% for item in site.tours %}
   <div class="tour-teaser">
     <div class="tour-teaser-image">
-      <img src="{{ item.tour_images.first.image_path }}" class="image-border" alt="{{ item.title }}" />
+      <a href="{{ item.url }}" title="{{ item.title }}">
+        <img src="{{ item.tour_images.first.image_path }}" class="image-border" alt="{{ item.title }}" />
+      </a>
     </div>
     <div class="tour-teaser-details">
-      <h3>{{ item.title }}</h3>
+      <h2>{{ item.title }}</h2>
       <p>{{ item.description }}</p>
       <div class="tour-teaser-links">
         <a class="more-info-link" href="{{ item.url }}">View More Details</a>

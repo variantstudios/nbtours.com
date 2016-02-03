@@ -1,16 +1,12 @@
 ---
 layout: page
-title: About Us
-intro: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu elementum nisl. Mauris quam tellus, semper non consequat ut, bibendum in magna. Suspendisse id euismod nunc. Suspendisse mollis quam mollis, efficitur risus et, sollicitudin leo.'
-permalink: /about-us/
+title: Lodging
+intro: 'The Twin Lakes Inn in Twin Lakes Colorado has served guests since 1879. Recently renovated, history and charm still live in its timbers.'
+permalink: /lodging/
 page_header_image: /assets/images/header-front/home.jpg
 ---
 
-![](/uploads/versions/photo-1433959352364-9314c5b6eb0b_sm---x----900-600x---.jpg)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu elementum nisl. Mauris quam tellus, semper non consequat ut, bibendum in magna. Suspendisse id euismod nunc. Suspendisse mollis quam mollis, efficitur risus et, sollicitudin leo. Mauris ut libero est. Etiam a tellus eleifend, fringilla ligula lacinia, fermentum elit. Donec nec viverra metus, in eleifend magna. Donec sollicitudin urna eget lacinia molestie. Integer in augue metus. Cras accumsan vel nulla quis dignissim. Morbi in laoreet mauris. Donec gravida, lectus quis consectetur congue, urna ligula finibus justo, at vulputate nulla lectus ut erat. Suspendisse convallis nibh tempor, gravida arcu quis, pharetra dolor.
-
-In tincidunt bibendum magna vitae posuere. Praesent ac aliquam nulla. Vestibulum lobortis auctor dolor, eget feugiat justo fringilla ut. Curabitur mollis finibus lacinia. Vestibulum fermentum eros nec mi tempus porttitor. Morbi eu fermentum ante. Suspendisse posuere eros lorem, in tempus ante suscipit venenatis. Nullam tincidunt, magna vel laoreet suscipit, ex orci rutrum orci, vel faucibus mi felis eget velit. Nam ornare tempor massa, at venenatis ligula efficitur id. Donec sodales fringilla sapien, vel lobortis velit auctor non. Maecenas et aliquam dui. Mauris quis ex a orci facilisis sagittis. Suspendisse rutrum sit amet erat sit amet tempus. Aliquam maximus congue bibendum.
+![](/assets/images/the-twin-lakes-inn.jpg)
 
 Suspendisse eleifend efficitur blandit. Cras nec aliquet dui. Curabitur quis gravida mauris, et molestie ipsum. Curabitur vulputate augue est, eu fringilla justo volutpat eu. Aliquam in nisi at elit pretium pellentesque. Donec rhoncus dolor vitae vehicula facilisis. Curabitur vehicula nisi massa. Cras ac augue ligula. Vestibulum commodo tortor ut lectus congue, eleifend laoreet nisi tristique. Vestibulum fermentum pharetra nulla, a feugiat lorem molestie in. Suspendisse nec arcu vel orci pellentesque elementum eget eu odio. Vivamus facilisis, ipsum sed rutrum ultricies, lorem sem convallis risus, et tristique urna purus nec felis. Sed tempus non leo ut pretium. Vivamus luctus molestie est vel vulputate. Nam sodales dignissim tellus consequat vulputate. Donec eros urna, molestie sit amet risus vel, tempus elementum odio.
 
