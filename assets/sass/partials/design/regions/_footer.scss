@@ -1,11 +1,18 @@
 footer {
-  color: #fff;
-  font-size: 80%;
-  padding: 0 1em 2em;
-  margin-top: 3em !important;
+  font-size: 90%;
+  padding: 16em 1em 1em;
+  margin-top: 9em !important;
+  background: url(../images/footer.png) repeat;
+  text-align: center;
+  margin: 0 auto;
   @include clearfix;
+  font-weight: 700;
+  font-family: $heading-font-family;
+  .wrap {
+    @include wrap;
+  }
   a:link, a:visited, span {
-    color: #fff;
+    color: inherit;
   }
   .left {
     @include breakpoint($tablet, $no-query: '.no-mq') {
