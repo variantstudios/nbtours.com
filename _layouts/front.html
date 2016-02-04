@@ -8,13 +8,20 @@ layout: default
   <p>Nichol-Bak tours is about bringing 7 different towns together and the epicenter being Twin Lakes. Along with seeing 7 different mountain towns, there is fishing, rafting, kayaking, museums, and really anything you can think of up there to do.</p>
 </div>
 
-
- <ul class="tabs-menu">
+<ul class="tabs-menu">
   {% for item in site.tours %}
-    <li><a href="#tab-{{ item.id }}">{{ item.title }}</a></li>
+    {% assign loopindex = forloop.index  %}
+    {% if loopindex == 1 %}
+      <li class="current tab">
+        <a href="#tab-{{ item.id }}">{{ item.title }}</a>
+      </li>
+    {% else %}
+      <li class="tab">
+        <a href="#tab-{{ item.id }}">{{ item.title }}</a>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
-
 
 {% for item in site.tours %}
   <div class="tour-teaser" id="tab-{{ item.id }}">
@@ -35,11 +42,16 @@ layout: default
 <div class="postscript">
   <div class="about-front editable">
     <h3>About Us</h3>
-    <p>Aenean rhoncus ultricies ipsum. Nam suscipit vehicula eros vitae aliquet. Nulla elementum risus a feugiat commodo. In tincidunt fermentum mauris, rhoncus porttitor nisl volutpat non.</p>
+    <p>Nichol-Bak tours is about bringing 7 different towns together and the epicenter being Twin Lakes. Looking at all the resorts and ranches up there, i feel that Nichol-Bak Tours gives people the opportunity to experience places like Vail, and Aspen while staying just outside these places and not dealing with the prices. </p>
     <a class="btn" href="">Learn More About Us</a>
   </div>
   <div class="contact-social inverse">
     <h6>Give us a call:</h6>
     <P class="phone-number">970-924-8357</P>
+    <div class="follow">
+      <img src="/assets/images/fb.svg" /><a href="https://www.facebook.com/NicholBakTours/">Friend us on Facebook</a>
+      <br>
+      <img src="/assets/images/insta.svg" /><a href="https://www.instagram.com">Follow us on Instagram</a>
+    </div>
   </div>
 </div>

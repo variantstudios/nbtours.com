@@ -9,23 +9,53 @@
 
 .about-front {
   background: #fff;
-  padding: 1em 1em;
-  @include breakpoint($tablet, $no-query: '.no-mq') {
+  padding: 2em 2em;
+  @include border-radius(3px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+  @include breakpoint($desktop, $no-query: '.no-mq') {
       @include grid-span(8.5,1);
       padding: 1em 7em 2em 2em;
   }
   h3 {
     font-size: 36px;
     color: #323F3F;
-    margin-bottom: 0.1em;
+    margin-bottom: 0.2em;
   }
 }
 
 .contact-social {
   background: #13365F;
-  padding: 1em 2em;
-  @include breakpoint($tablet, $no-query: '.no-mq') {
+  padding: 2em 2em 1em;
+  background: url(../images/front-about-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: $heading-font-family;
+  margin-top: 2em;
+  @include border-radius(3px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+  @include breakpoint($desktop, $no-query: '.no-mq') {
       @include grid-span(5,8);
       margin-top: 2em;
+  }
+  h6 {
+    margin: 0;
+  }
+  .phone-number {
+    font-size: 150%;
+  }
+  .follow {
+    img {
+      display: inline-block;
+      margin: 0;
+      padding: .2em 1em .85em 0;
+      vertical-align: middle;
+    }
+    a {
+      display: inline-block;
+      color: #fff;
+      font-size: 115%;
+    }
   }
 }

@@ -1,5 +1,4 @@
 ---
-layout: tour
 id: 3
 title: The Twin Lakes 30
 description: '30 miles of the best hiking in Twin Lakes and surrounding areas. we will be climbing trails such as mineral belt trail, windsor lake, interlaken and mount elbert north trail. While staying up in Twin Lakes you will be able to go horseback riding the beautiful Rocky Mtns. and fish the trout in the area.'

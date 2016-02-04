@@ -19,15 +19,13 @@ a {
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
-  padding: .5em 1.75em .4em;
+  padding: .75em 1.75em .65em;
   font-size: 0.9em;
 }
 
 .more-info-link {
-  font-size: 0.9em;
   text-transform:uppercase;
   font-weight: 700;
-  text-decoration: underline;
   margin-right: 2em;
 }
 
@@ -35,6 +33,6 @@ a {
   display: inline-block;;
   margin-bottom: 1em;
   @include breakpoint($tablet, $no-query: '.no-mq') {
-    font-size: 0.8em;
+    font-size: 0.85em;
   }
 }

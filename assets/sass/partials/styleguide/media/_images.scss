@@ -5,10 +5,13 @@ img {
 
 .image-border {
   background: #fff;
-  padding: 25px !important;
+  padding: 15px !important;
   box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+  @include border-radius(3px);
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    padding: 25px !important;
+  }
 }
-
 .main-content-area {
   img {
     margin: 0 auto;

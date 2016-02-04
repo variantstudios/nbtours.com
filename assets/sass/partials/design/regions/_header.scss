@@ -1,6 +1,7 @@
 header {
   margin: 0 auto;
   @include clearfix;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
   &:after {
     background: -moz-linear-gradient(top, rgba(59,67,91,0.82) 0%, rgba(67,83,115,0.00) 100%); 
     background: -webkit-linear-gradient(top, rgba(59,67,91,0.82) 0%, rgba(67,83,115,0.00) 100%); 
@@ -31,7 +32,16 @@ header {
   header {
     nav.main-nav {
       @include breakpoint($tablet, $no-query: ".no-mq") {
-        padding: 2em 0 32em;
+        padding: 2em 0 30em;
+      }
+    }
+  }
+}
+.tour-fn {
+  header {
+    &:after {
+      @include breakpoint($tablet, $no-query: ".no-mq") {
+        height: 550px;
       }
     }
   }

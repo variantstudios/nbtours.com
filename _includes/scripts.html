@@ -28,6 +28,7 @@
         $(this).parent().siblings().removeClass("current");
         var tab = $(this).attr("href");
         $(".tour-teaser").not(tab).css("display", "none");
+        $(".tour-teaser").not(tab).addClass('hide');
         $(tab).fadeIn();
     });
 });
