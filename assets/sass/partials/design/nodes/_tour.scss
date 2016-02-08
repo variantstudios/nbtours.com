@@ -1,5 +1,8 @@
 .tours-images-slider {
-  margin: -10em 0 4em;
+  margin: -10em -1em 2em;
+  @include breakpoint($desktop, $no-query: '.no_mq') {
+    margin: -10em 0 4em;
+  }
 }
 .tours-detail {
   border-top: 1px solid #ccc;
@@ -33,5 +36,49 @@
   }
   .image-border {
     box-shadow: none;
+  }
+  .left-col {
+    @include breakpoint($desktop, $no-query: '.no_mq') {
+      @include grid-span(5,1);
+    }
+  }
+  .right-col {
+    @include breakpoint($desktop, $no-query: '.no_mq') {
+      @include grid-span(5,8);
+    }
+  }
+}
+
+.tour-details {
+  @include clearfix;
+  .detail {
+    padding-bottom: .75em;
+    li {
+      padding-bottom: .25em;
+    }
+  }
+}
+
+.faq {
+  h6 {
+    margin-bottom: 0;
+    color: inherit;
+  }
+  p {
+  }
+}
+
+.detail.contact {
+  span {
+    padding-bottom: .5em;
+  }
+}
+
+.book-link {
+  margin: 2em auto 0;
+  text-align: center;
+  font-size: 130%;
+  @include breakpoint($desktop, $no-query: '.no_mq') {
+    margin: 5em auto 0;
   }
 }
