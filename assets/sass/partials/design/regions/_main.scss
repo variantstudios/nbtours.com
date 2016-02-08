@@ -12,7 +12,7 @@
 .front { 
   .main-content-area {
     .page-intro {
-      margin: 0 auto 2em;
+      margin: 0 auto 1em;
       @include breakpoint($tablet, $no-query: '.no-mq') {
         margin: 0 auto 5em;
       }

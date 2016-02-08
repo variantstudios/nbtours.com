@@ -1,13 +1,17 @@
 footer {
   font-size: 90%;
-  padding: 16em 1em 1em;
-  margin-top: 9em !important;
+  padding: 14em 1em 1em;
+  margin-top: 5em !important;
   background: url(../images/footer.png) repeat;
   text-align: center;
   margin: 0 auto;
   @include clearfix;
   font-weight: 700;
   font-family: $heading-font-family;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    padding: 16em 1em 1em;
+    margin-top: 9em !important;
+  }
   .wrap {
     @include wrap;
   }

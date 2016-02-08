@@ -9,7 +9,7 @@ page_header_image: /assets/images/header-front/home.jpg
 
 <form action="#" method="post" class="request-form">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type='hidden' name='redirect_to' value='https://www.variantstudios.com/contact/thanks/' />
+  <input type='hidden' name='redirect_to' value='https://www.nb-tours.com/request/thanks/' />
   <!-- all your input fields here.... -->
   <h3>Basic Info</h3>
     <div class="webform-component">
@@ -37,7 +37,7 @@ page_header_image: /assets/images/header-front/home.jpg
         <input type="number" name="number" id="number" required="">
     </div>
     <div class="webform-component">
-        <label for="rooms">How many rooms at the Inn will your party need:</label>
+        <label for="rooms">How many rooms at the Twin Lakes Inn will your party need:</label>
         <input type="number" name="rooms" id="rooms" required="">
     </div>
 
@@ -46,22 +46,22 @@ page_header_image: /assets/images/header-front/home.jpg
         <label for="name">What are you interested in doing while in Twin Lakes?</label>
         <div class="checkbox-list-wrap">
           <div class="checkbox-list">
-            <input type="checkbox" name="hiking" required=""><label>Hiking</label>
+            <label><input type="checkbox" name="hiking" required="">Hiking</label>
           </div>
           <div class="checkbox-list">
-            <input type="checkbox" name="fishing" required=""><label>Fishing</label>
+            <label><input type="checkbox" name="fishing" required="">Fishing</label>
           </div>
           <div class="checkbox-list">
-            <input type="checkbox" name="horses" required=""><label>Horse Back Riding</label>
+            <label><input type="checkbox" name="horses" required="">Horse Back Riding</label>
           </div>
           <div class="checkbox-list">
-            <input type="checkbox" name="horses" required=""><label>Photography</label>
+            <label><input type="checkbox" name="horses" required="">Photography</label>
           </div>
           <div class="checkbox-list">
-            <input type="checkbox" name="horses" required=""><label>Seeing Wildlife</label>
+            <label><input type="checkbox" name="horses" required="">Seeing Wildlife</label>
           </div>
           <div class="checkbox-list">
-            <input type="checkbox" name="beer" required=""><label>Seeing Local Towns & Breweries</label>
+            <label><input type="checkbox" name="beer" required="">Seeing Local Towns & Breweries</label>
           </div>
         </div>
     </div>
@@ -79,5 +79,5 @@ page_header_image: /assets/images/header-front/home.jpg
         <label for="Message">Any Questions you have for us?</label>
         <textarea id="message" name="message" rows="6" cols="25"></textarea>
     </div>
-    <input class="sendButton" type="submit" name="Submit" value="Send">
+    <input class="sendButton" type="submit" name="Submit" value="Sumbit">
 </form>

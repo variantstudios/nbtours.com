@@ -37,8 +37,19 @@ layout: default
     </div>
   </div>
   <div class="right-col">
-    <div class="detail"><span class="detail-label"></span></div>
-    <div class="detail"><span class="detail-label"></span></div>
+    <div class="detail faq">
+      <span class="detail-label">FAQ</span>
+      {% for item in page.faq %}
+        <h6>{{ item.question }}</h6>
+        <p>{{ item.answer }}</p>
+      {% endfor %}
+    </div>
+    <div class="detail contact">
+      <span class="detail-label">Have any questions about this tour?</span>
+      <p>Give us a call at 970-294-8357 or drop us a line using our <a href="/contact">contact form</a></p>
+    </div>
   </div>
 </div>
+
+<div class="book-link"><a href="/request" class="btn book-now">Request to Book Now</a></div>
 
