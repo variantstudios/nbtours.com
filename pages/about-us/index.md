@@ -3,7 +3,7 @@ layout: page
 title: About Us
 intro: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu elementum nisl. Mauris quam tellus, semper non consequat ut, bibendum in magna. Suspendisse id euismod nunc. Suspendisse mollis quam mollis, efficitur risus et, sollicitudin leo.'
 permalink: /about-us/
-page_header_image: /assets/images/header-front/home.jpg
+page_header_image_path: /assets/images/header-front/home.jpg
 ---
 
 ![](/uploads/versions/photo-1433959352364-9314c5b6eb0b_sm---x----900-600x---.jpg)
