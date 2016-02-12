@@ -3,7 +3,7 @@ layout: page
 title: Lodging
 intro: 'The Twin Lakes Inn in Twin Lakes Colorado has served guests since 1879. Recently renovated, history and charm still live in its timbers.'
 permalink: /lodging/
-page_header_image: /assets/images/header-front/home.jpg
+page_header_image_path: /assets/images/header-front/home.jpg
 ---
 
 ![](/assets/images/the-twin-lakes-inn.jpg)
