@@ -3,7 +3,7 @@ layout: page
 title: "Book Tour"
 intro: 'Use the form below to request a tour. We will contact you with further tour details once we recieve your request.'
 permalink: /request/
-page_header_image: /assets/images/header-front/home.jpg
+page_header_image_path: /assets/images/header-front/home.jpg
 ---
 
 
